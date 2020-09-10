@@ -28,6 +28,7 @@ button {
 }
 
 .project-image {
+    max-width: 100%;
     margin-bottom: 69px;
 }
 
