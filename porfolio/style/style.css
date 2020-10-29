@@ -1,0 +1,310 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy Medium', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 944px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #828282;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.intro {
+    margin-bottom: 104px;
+}
+
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.intro__title {
+    font-size: 47.3392px;
+    line-height: 59px;
+    font-weight: bold;
+    color: #070707;
+}
+
+.intro__prof {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.intro__lang {
+    transform: rotate(-90deg);
+}
+
+.lang-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.active {
+    color: #000000;
+    font-weight: bold;
+}
+
+.lang-link:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+.intro__photo {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    background-color: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 107px;
+
+}
+
+.about__inner {
+    text-align: center;
+    padding: 0 230px;
+}
+
+.about__title {
+    margin-bottom: 18px;
+    font-family: "Gilroy Bold";
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 42px;
+    color: #070707;
+}
+
+.about__text {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    font-weight: 500;
+}
+
+.skills {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.skills__title {
+    margin-bottom: 69px;
+    font-family: "Gilroy Bold";
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.skills__subtitle {
+    margin-bottom: 83px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.skills__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill_item {
+    width: 25%;
+    text-align: center;
+}
+
+.skills__img {
+    margin-bottom: 24px;
+}
+
+.item__title {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.portfolio {
+    padding-top: 112px;
+    background-color: #F6F6F6;
+    overflow: hidden;
+}
+
+.portfolio__item {
+    padding-bottom: 100px;
+  
+}
+
+.portfolio__title {
+    margin-bottom: 47px;
+    font-family: "Gilroy Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.porfolio__img {
+    padding-bottom: 44px;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__item__title {
+    display: flex;
+    justify-content: center;
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.portfolio__item__title:hover {
+    color: rgb(43, 75, 182);
+}
+
+.footer {
+    padding: 114px 0;
+    text-align: center;
+}
+
+.footer__title {
+    font-family: "Gilroy Bold";
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+    padding-bottom: 20px;
+}
+
+.footer__subtitle {
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    padding-bottom: 30px;
+}
+
+.footer__btn {
+    background-color: #070707;
+    color: #ffffff;
+    padding: 13px 25px;
+    border-radius: 40px;
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.footer__social {
+    padding-bottom: 40px;
+    width: 100%;
+    max-width: 342px;
+    margin: 0 auto;
+}
+
+.social-link {
+    margin-left: 51px;
+}
+
+.social-link:first-child {
+    margin-left: 0;
+}
+
+
+.footer__text {
+    font-family: "Gilroy Medium";
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+@media (max-width: 767px) {
+    .about__inner {
+        padding: 0 100px;
+    }
+    .skill_item {
+        width: 50%;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about__inner {
+        padding: 0;
+    }
+
+    .skill_item {
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url("../fonts/Gilroy-Bold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Gilroy Heavy";
+    src: url("../fonts/Gilroy-Heavy.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Gilroy SemiBold";
+    src: url("../fonts/Gilroy-SemiBold.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Gilroy Medium";
+    src: url("../fonts/Gilroy-Medium.woff") format("truetype");
+}
+
+@font-face {
+    font-family: "Gilroy Thin";
+    src: url("../fonts/Gilroy-Thin.woff") format("truetype");
+}
