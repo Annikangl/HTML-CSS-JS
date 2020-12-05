@@ -10,7 +10,7 @@
 
 <h2>Макет главной страницы</h2>
 
-![Portfolio](https://user-images.githubusercontent.com/32800337/92785693-4d022000-f3b0-11ea-9c58-38a3af770101.jpg)
+![Снимок](https://user-images.githubusercontent.com/32800337/101243845-00f71b00-3714-11eb-9d76-a09b58ad7ae7.JPG)
 
 
 <h2>Внутренняя страница сайта</h2>
